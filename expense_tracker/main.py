@@ -9,13 +9,13 @@ categories=[]
 for i in range(n):
     x=input(f"Nhap ten khoan chi {i+1}: ")
     names.append(x)
-    x=float(input(f"Nhap so tien: "))
+    x=float(input("Nhap so tien: "))
     while x<=0:
-        x=float(input(f"Vui long nhap lai so tien "))
+        x=float(input("Vui long nhap lai so tien: "))
     amounts.append(x)
     x=input("Nhap loai chi tieu: ")
     while x!='food' and x!='drink' and x!='transport' and x!='other':
-        x=input("Loai chi tieu khong phu hop, vui long nhap lai ")
+        x=input("Loai chi tieu khong phu hop, vui long nhap lai: ")
     categories.append(x)
     
 
