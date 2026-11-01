@@ -1,7 +1,7 @@
-n=int(input())
+n=int(input("Nhap n = "))
 while n<=0:
     print(f"Vui long nhap n>0 ")
-    n=int(input())
+    n=int(input("Nhap n = "))
 tong=0
 sochan=0
 sole=0

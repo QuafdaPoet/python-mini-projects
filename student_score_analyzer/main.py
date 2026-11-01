@@ -22,9 +22,7 @@ for x in scores:
 print(f"Diem trung binh = {tongdiem/n}")
 
 max_value=scores[0]
-max_location=0
 min_value=scores[0]
-min_location=0
 for i in range(n):
     if scores[i]>max_value:
         max_value=scores[i]
@@ -34,12 +32,12 @@ for i in range(n):
 print(f"Diem cao nhat la {max_value}\nHoc sinh co diem cao nhat:")
 for i in range(n):
     if scores[i]==max_value:
-        print(f"-{names[i]}")
+        print(f"- {names[i]}")
 
 print(f"Diem thap nhat la {min_value}\nHoc sinh co diem thap nhat:")
 for i in range(n):
     if scores[i]==min_value:
-        print(f"-{names[i]}")
+        print(f"- {names[i]}")
 
 
 count_gioi=0
